@@ -8,7 +8,12 @@ packages = [{include = "fsopxpy_loc"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+requests = "^2.28.2"
+beautifulsoup4 = "^4.11.2"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.1"
 
 [build-system]
 requires = ["poetry-core"]
